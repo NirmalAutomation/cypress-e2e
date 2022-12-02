@@ -10,14 +10,19 @@ describe('Navigate to Landing Page', () => {
 
     })
 
-    it('Assert title in Landing Page', () => {
-
-        cy.get('#site-header').contains('Federal Policy Guidance').click()
-            .then(() => {
-                cy.get('h1').should('contain.text', 'Federal Policy Guidance');
-            })
-
+    it('Assert title', () => {
+        cy.get('[data-test="@web/Header/MainMenuLink"]')
+            .contains('Categories').click();
     })
+
+    // it('Assert title in Landing Page', () => {
+    //
+    //     cy.get('#site-header').contains('Federal Policy Guidance').click()
+    //         .then(() => {
+    //             cy.get('h1').should('contain.text', 'Federal Policy Guidance');
+    //         })
+    //
+    // })
 })
 
 //git push --set-upstream origin init
