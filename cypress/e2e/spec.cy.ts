@@ -3,7 +3,7 @@
 describe('Medicaid Gov Landing Page', () => {
 
   beforeEach(() => {
-    cy.visit('/', {failOnStatusCode:false});
+    cy.visit('https://www.medicaid.gov', {failOnStatusCode:false});
   })
 
   it('Renew your Medicaid or CHIP coverage', () => {
@@ -12,11 +12,7 @@ describe('Medicaid Gov Landing Page', () => {
           cy.url().should("include", "resources-for-states/coronavirus-disease-2019-covid-19/" +
               "unwinding-and-returning-regular-operations-after-covid-19/renew-your-medicaid-or-chip-coverage/index.html");
 
-          cy.get('#select-state').select('Maryland')
-              .then(() => {
-                cy.get('input[value="Go to Maryland"]').click();
-              })
-
+          cy.get('#select-state').select('Maryland');
     })
   })
 })
