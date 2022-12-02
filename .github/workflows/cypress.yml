@@ -9,6 +9,5 @@ jobs:
       - name: Cypress.io
         uses: cypress-io/github-action@v4.2.2
         with:
-          record: true
           start: npx cypress run --browser chrome --record --key 11233911-e9d2-4c22-b6ea-6fb6a49b5c25
         
