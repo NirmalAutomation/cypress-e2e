@@ -9,11 +9,8 @@ describe('Navigate to Landing Page', () => {
     it('Assert title in Landing Page', () => {
 
         cy.wait(10000)
-        cy.get('.nav-container').contains('Movies').click()
-            .then(() => {
-                cy.wait(10000)
-                cy.get('.nav-container').contains('Sports').click();
-            })
+        cy.get('.nav-container').contains('Movies').click();
+
     })
 })
 
