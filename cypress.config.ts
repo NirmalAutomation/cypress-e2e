@@ -5,7 +5,7 @@ export default defineConfig({
     baseUrl: 'https://www.hotstar.com/in'
   },
   viewportHeight: 800,
-  viewportWidth: 1300,
+  viewportWidth: 1200,
   chromeWebSecurity: false,
 
 })
