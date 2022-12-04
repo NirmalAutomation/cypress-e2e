@@ -1,5 +1,8 @@
 name: cypress test
-on: [push]
+on: 
+  schedule:
+  - cron: "0 21 * * 0,1"
+  
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
