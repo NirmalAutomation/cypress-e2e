@@ -1,7 +1,7 @@
 name: cypress test
 on: 
   schedule:
-  - cron: "0 10 * * 0-6"
+  - cron: "10 10 * * 0-6"
   
 jobs:
   cypress-run:
