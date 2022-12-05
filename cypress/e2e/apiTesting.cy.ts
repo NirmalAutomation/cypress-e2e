@@ -38,7 +38,6 @@ describe('Rest API Testing', () => {
         }).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.isOkStatusCode).to.eq(true)
-
         });
     });
 });

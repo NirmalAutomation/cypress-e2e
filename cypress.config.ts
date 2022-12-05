@@ -6,7 +6,7 @@ export default defineConfig({
     baseUrl: 'https://www.target.com'
   },
   viewportHeight: 800,
-  viewportWidth: 1200,
+  viewportWidth: 1300,
   chromeWebSecurity: false,
 
 })
