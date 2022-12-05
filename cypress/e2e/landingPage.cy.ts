@@ -15,14 +15,6 @@ describe('Navigate to Landing Page', () => {
             .contains('Categories').click();
     })
 
-    // it('Assert title in Landing Page', () => {
-    //
-    //     cy.get('#site-header').contains('Federal Policy Guidance').click()
-    //         .then(() => {
-    //             cy.get('h1').should('contain.text', 'Federal Policy Guidance');
-    //         })
-    //
-    // })
 })
 
 //git push --set-upstream origin init
