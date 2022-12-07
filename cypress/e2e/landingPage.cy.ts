@@ -27,4 +27,9 @@ describe('Navigate to Landing Page', () => {
 //docker run -it -v ${PWD}:/e2e -w /e2e cypress/included:9.2.0
 
 // Docker
-// docker run -it -v $PWD:/my-cypress-project -t my-cy-image:2.0 cypress/e2e/*.cy.ts --browser chrome
+// docker build -t my-cypress-image:2.0 .
+// docker run -it -v $PWD:/my-cypress-project -t my-cypress-image:2.0 cypress/e2e/*.cy.ts --browser chrome
+
+// Docker Compose
+// docker-compose up (To run all mentioned browser)
+// docker-compose run e2e-chrome
