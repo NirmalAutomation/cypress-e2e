@@ -17,5 +17,5 @@ jobs:
         uses: cypress-io/github-action@v4.2.2
         with:
           start: npx cypress run --record --key 3bbd09cd-3f41-4f34-8e96-2ba1c82329d0
-          browser: chrome, firefox
+          browser: chrome
         
