@@ -2,7 +2,6 @@
   "devDependencies": {
     "axe-core": "^4.5.2",
     "cypress": "^12.0.2",
-    "cypress-axe": "^1.1.0",
     "typescript": "^4.9.3"
   },
   "dependencies": {
